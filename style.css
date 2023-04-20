@@ -1,0 +1,47 @@
+body{
+    background-color:burlywood;
+}
+
+.card{
+    border: 5px solid black;
+    border-radius: 15px;
+    background-image: url("img/istockphoto-537373196-612x612.jpg"); /*+ parallax */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10%;
+    background-color: aliceblue;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 10px;
+    width: 60%;
+    margin: auto;
+    
+    
+
+    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-rows: repeat(5, 200px);*/
+
+}
+
+.card:nth-child(1){
+    grid-column: 1 / span 3;
+}
+.card:nth-child(2){
+    grid-row:  2 / 4;
+}
+
+.card:nth-child(5){
+    grid-column:  2 / 4;
+}
+.card:nth-child(6){
+    grid-column:  1 / span 2;
+}
+.card:nth-child(8){
+    grid-column:  1 / 4;
+}
+
+
