@@ -1,17 +1,18 @@
 body{
-    background-color:burlywood;
+    background-color:black;
 }
 
 .card{
-    border: 5px solid black;
+    border: 5px solid white;
     border-radius: 15px;
-    background-image: url("img/istockphoto-537373196-612x612.jpg"); /*+ parallax */
+    box-shadow: 10px 5px 5px red;
+
+    background-image: url("img/23412278894_25cda29b4d_b.jpg"); /* img + parallax */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 10%;
-    background-color: aliceblue;
 }
 
 .grid{
